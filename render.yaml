@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: pairing-code-api
+    env: node
+    plan: free
+    repo: <REPLACE_WITH_YOUR_GITHUB_REPO_URL>
+    buildCommand: npm install
+    startCommand: npm start
